@@ -1,0 +1,18 @@
+section	count	key
+group	1614	🛑 广告拦截
+group	910	🎯 全球直连
+kept_total	2524	direct+reject
+type	2172	DOMAIN-SUFFIX
+type	253	IP-CIDR
+type	50	DOMAIN
+type	41	DOMAIN-KEYWORD
+type	8	IP-CIDR6
+no_resolve_group	242	🎯 全球直连
+no_resolve_group	19	🛑 广告拦截
+no_resolve_total	261	direct+reject
+no_resolve_type	253	IP-CIDR
+no_resolve_type	8	IP-CIDR6
+resolve_group	1595	🛑 广告拦截
+resolve_group	668	🎯 全球直连
+resolve_total	2263	direct+reject
+skipped_group	35	🔍 谷歌服务

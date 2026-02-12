@@ -1,0 +1,15 @@
+artifact	count
+direct_no_resolve_classical.yaml	242
+direct_resolve_classical.yaml	668
+reject_no_resolve_classical.yaml	19
+reject_resolve_classical.yaml	1595
+direct_resolve_domain.yaml	652
+reject_resolve_domain.yaml	1570
+direct_no_resolve_ipcidr.yaml	242
+reject_no_resolve_ipcidr.yaml	19
+direct_resolve_keyword_classical.yaml	16
+reject_resolve_keyword_classical.yaml	25
+direct_no_resolve.mrs(bytes)	1183
+direct_resolve.mrs(bytes)	4593
+reject_no_resolve.mrs(bytes)	104
+reject_resolve.mrs(bytes)	11966
