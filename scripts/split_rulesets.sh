@@ -10,7 +10,12 @@ if [[ ! -f "$INPUT_FILE" ]]; then
 fi
 
 mkdir -p "$OUT_DIR"
-rm -f "$OUT_DIR"/*.yaml "$OUT_DIR"/analysis.tsv
+rm -f \
+  "$OUT_DIR"/direct_resolve_classical.yaml \
+  "$OUT_DIR"/direct_no_resolve_classical.yaml \
+  "$OUT_DIR"/reject_resolve_classical.yaml \
+  "$OUT_DIR"/reject_no_resolve_classical.yaml \
+  "$OUT_DIR"/analysis.tsv
 
 # Map source policy groups to ASCII filenames.
 map_group() {
