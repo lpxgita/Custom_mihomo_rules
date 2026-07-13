@@ -11,10 +11,10 @@ yaml="$tmpdir/yaml.txt"
 mrs="$tmpdir/mrs.txt"
 
 printf '%s\n' \
+  +.nvidia.download.com \
   developer.download.nvidia.cn \
   developer.download.nvidia.com \
   download.nvidia.com \
-  nvidia.download.com \
   | LC_ALL=C sort -u > "$expected"
 
 awk -F '\t' 'NR>1 && $8=="yes" {print $2}' \
