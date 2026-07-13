@@ -13,6 +13,7 @@ mrs="$tmpdir/mrs.txt"
 printf '%s\n' \
   developer.download.nvidia.cn \
   developer.download.nvidia.com \
+  download.nvidia.com \
   nvidia.download.com \
   | LC_ALL=C sort -u > "$expected"
 
